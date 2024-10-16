@@ -3,3 +3,329 @@
     margin: 0;
     padding: 0;
 }
+
+nav{
+
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.vertical-line{
+
+    border-left: 2px solid #f2f2f2;
+    height: 80px;
+}
+
+.nav-delivery>h5{
+    margin-top: 10px;
+    font-weight: 900px;
+}
+
+.nav-delivery>p{
+
+    font-size: 13px;
+}
+
+#my-nav-search{
+
+    
+    background: color #f8f8f8; 
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    padding-inline: 10px;
+}
+
+#hero-section{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+#my-nav-search>input{
+
+    border: none;
+    width: 40vw;
+    height: 50px;
+    background-color: transparent;
+}
+
+.my-cart-btn{
+    background-color: #0d831e !important;
+    font-size: 14px !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+}
+
+#categories1{
+
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 6.5vw;
+    justify-content: space-around;
+}
+
+.scroll-container{
+
+    width: 85vw;
+
+    margin: auto;
+
+}
+
+.list{
+
+    white-space: nowrap;
+    overflow-x: scroll;
+    
+}
+
+.list::-webkit-scrollbar{
+
+    display: none;
+}
+
+.list>img{
+
+    display: inline-block;
+    margin: 10px;
+}
+
+.category{
+
+    width: 85vw;
+    margin: auto;
+}
+
+.my-card{
+    display: inline-block !important;
+    width: 220px;
+    box-sizing: border-box;
+    border-radius: 15px !important;
+    white-space: wrap;
+    margin-inline: 10px;
+}
+
+.my-card>img{
+
+    display: inline-block;
+    margin: auto;
+}
+
+.time{
+
+    background-color: #f2f2f2;
+    font-size: 11px;
+    font-weight: 700;
+    width: fit-content;
+    color: rgb(54,54,54);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.product-weight{
+
+    font-size: 13px;
+    color:#666666 ;
+}
+
+.my-tag{
+
+    position:absolute;
+    top: 0px;
+    left: 10px;
+    width: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    color: white;
+    background-color: #528cee;
+}
+
+footer{
+
+    width:85vw ;
+    margin: auto;
+}
+
+#my-footer-row-3{
+
+    text-align: justify;
+    font-size: 15px;
+    color: #666666;
+}
+
+#my-footer-row-2{
+
+    display: flex;
+
+    text-align: justify;
+    font-size: 13px;
+    color: #666666;
+
+    margin-top: 12px;
+    margin-bottom: 20px;
+    
+}
+
+#footer-row-2-col1{
+
+    flex: 1;
+    padding-inline: 10px;
+    
+}
+
+#footer-row-2-col2{
+    flex: 1;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#footer-row-2-col1>h6{
+
+    color: #666666;
+}
+
+.same-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #213a50;
+        color: white;
+        text-align: center;
+
+}
+
+#footer-row-2-col3{
+
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-icons{
+
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.social-icons:hover{
+
+    
+    color: black;
+    display: flex;
+    background-color: yellow;
+    box-shadow: 3px 3px 5px black;
+}
+
+#my-footer-row-1{
+
+    display: flex;
+}
+
+#footer-table-1{
+
+    flex: 2;
+    width: 100%;
+}
+
+#footer-table-2{
+
+    flex:3;
+    width: 100%;
+
+}
+
+table{
+    width: 100%;
+}
+
+td{
+
+    color: #666666;
+    line-height: 30px;
+   
+
+}
+
+td:hover{
+
+    color: #666666;
+    line-height: 30px;
+    text-decoration: underline;
+    color: orangered;
+
+}
+
+@media screen and (max-width:400px) {
+    
+    #hero-section{
+
+        display: none !important;
+    }
+
+    #my-footer-row-1{
+
+        flex-direction: column !important;
+        align-items: center !important;
+        margin: auto
+    }
+
+    #my-footer-row-2,#footer-table-1,#footer-table-1,#footer-row-2-col1{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    td{
+
+        text-align: center;
+    }
+
+    .same-box{
+
+        margin-top: 10px;
+    }
+
+    #footer-row-2-col3{
+        justify-content: space-between;
+        width: 90vw;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .vertical-line{
+
+        display: none;
+    
+    }
+
+    #my-nav-search{
+
+        width: 90vw;
+    }
+
+    nav{
+
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position:static;
+    }
+    
+}
+
